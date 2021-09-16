@@ -3114,6 +3114,39 @@ blockquote .quote_author:before {
     text-transform: uppercase;
     font-size: 14px;
 }
+#cta .text-cta{
+    font-size: 25px;
+    color: var(--thm-color-two);
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+    justify-content: center;
+    text-transform: uppercase;
+}
+#cta .cta-btn{
+    position: relative;
+    width: 180px;
+    max-width: 100%;
+    background-color: var(--thm-color-two);
+    color: #fff !important;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 10px 10px 15px;
+}
+#cta .cta-btn:after {
+    content: '';
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    left: 5px;
+    bottom: 5px;
+    border: #00bcd4 2px solid;
+}
+#cta .arrows .arrow {
+    border-left-color: var(--thm-color-three);
+}
 /*style 2*/
 .footer.style_2 {
     background-repeat: no-repeat;
