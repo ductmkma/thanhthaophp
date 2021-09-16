@@ -1,0 +1,947 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Thành thạo PHP MySQL trong 24h | Zent Coding School</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Description website">
+    <meta name="author" content="Maksym Blank">
+    <meta name="keywords" content="website, with, meta, tags">
+    <meta name="robots" content="noindex, follow">
+    <meta name="revisit-after" content="5 month">
+    <meta name="image" content="http://mywebsite.com/image.jpg">
+    <meta name="og:title" content="Title website">
+    <meta name="og:description" content="Description website">
+    <meta name="og:image" content="http://mywebsite.com/image.jpg">
+    <meta name="og:site_name" content="My Website">
+    <meta name="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Title website">
+    <meta name="twitter:description" content="Description website">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <!-- Css -->
+    <link href="assets/css/plugins/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/slick.css" rel="stylesheet">
+    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.css" rel="stylesheet">
+    <link href="assets/fonts/flaticon/flaticon.css" rel="stylesheet">
+    <link href="assets/fonts/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div class="preloader">
+        <img src="assets/images/preloader.svg" alt="preloader">
+    </div>
+    <!-- Preloader End -->
+    <!-- Mobile Menu Start -->
+    <aside class="aside_bar aside_bar_left aside_mobile">
+        <!-- logo -->
+        <a href="index.html" class="logo">
+            <img src="assets/images/logo_zent.png" alt="logo">
+        </a>
+        <!-- logo -->
+        <!-- Menu -->
+        <nav>
+            <ul class="main-menu">
+                <li class="menu-item">
+                    <a href="contact.html">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Menu -->
+    </aside>
+    <div class="aside-overlay trigger-left"></div>
+    <!-- Mobile Menu End -->
+    <!-- Header Start -->
+    <header class="header header-absolute can-sticky">
+        <div class="container">
+            <!-- inner -->
+            <div class="nav_warp">
+                <nav>
+                    <!-- logo start -->
+                    <div class="logo">
+                        <a target="_blank" href="https://zent.edu.vn">
+                            <img src="assets/images/logo_zent.png" alt="logo" class="image-fit">
+                        </a>
+                    </div>
+                    <!-- logo end -->
+                    <!-- Navigation Start -->
+                    <ul class="main-menu"> 
+                        <li class="menu-item">
+                            <a href="#intro">Giới thiệu</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#roadmap">Lộ trình</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#project">Sản phẩm học viên</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#testimonials">Cảm nhận học viên</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#teacher">Giảng viên</a>
+                        </li>
+                        <li style="background-color: var(--thm-color-two);" class="menu-item">
+                            <a style="color:white" href="#register">Đăng ký ngay</a>
+                        </li>
+                    </ul>
+                    <!-- Navigation Ens -->
+                </nav>
+                <div class="head_actions">
+                    <button type="button" class="head_trigger mobile_trigger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <!-- inner -->
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Banner Start -->
+    <div class="banner relative z-1" id="intro">
+        <img src="assets/images/banner/element_1.png" class="element_1" alt="Element">
+        <img src="assets/images/banner/element_line.png" class="element_line" alt="Element Line">
+        <!-- Texts -->
+        <div class="transform-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="text_box">
+                            <h1 class="title wow fadeInUp" data-wow-delay=".30ms"><span>Thành thạo</span> Lập trình PHP sau 24h</h1>
+                            <p class="wow fadeInUp" data-wow-delay=".40ms">Sed ut perspiciatis unde omnis iste natus error voluptatem accan tium doloremque laudantium totam rem aperiam</p>
+                            <a href="about-2.html" class="thm-btn bg-thm-color-two thm-color-two-shadow btn-rounded mr-4 mb-4 wow fadeInRight" data-wow-delay=".50ms">Tìm hiểu ngay <i class="fal fa-chevron-right ml-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="image_box relative wow fadeInRight" data-wow-delay=".80ms">
+                            <img src="assets/images/banner/banner_img.png" alt="img" class="image-fit">
+                            <span class="bg-thm-color-three circle_element"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Line -->
+        <div class="bottom-line container"></div>
+    </div>
+    <!-- Banner End -->
+    <!-- Features Start -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Feature Box Start -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="features_box wow fadeInUp" data-wow-delay=".3s">
+                        <div class="icon">
+                            <img src="assets/images/icons/book.png" alt="img">
+                        </div>
+                        <h5>Học qua dự án</h5>
+                        <p class="text-justify">Học viên được tiếp cận kiến thức thông qua bài toán của các dự án thực tế. Hiểu và vận dụng tốt từ lý thuyết tới thực hành.</p>
+                    </div>
+                </div>
+                <!-- Feature Box End -->
+                <!-- Feature Box Start -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="features_box wow fadeInUp" data-wow-delay=".4s">
+                        <div class="icon">
+                            <img width="78px" height="63px" src="assets/images/icons/web-development.png" alt="img">
+                        </div>
+                        <h5>Hỗ trợ 24/7</h5>
+                        <p class="text-justify">Đội ngũ giảng viên, trợ giảng giàu kinh nghiệm, cộng đồng Zenter hỗ trợ học viên liên tục qua nhiều hình thức khác nhau.</p>
+                    </div>
+                </div>
+                <!-- Feature Box End -->
+                <!-- Feature Box Start -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="features_box wow fadeInUp" data-wow-delay=".5s">
+                        <div class="icon">
+                            <img src="assets/images/icons/support.png" alt="img">
+                        </div>
+                        <h5>Hỗ trợ việc làm</h5>
+                        <p class="text-justify">Cam kết học viên sẽ được giới thiệu vị trí thực tập, việc làm sau khi hoàn thành lộ trình học với mức lương hấp dẫn.</p>
+                    </div>
+                </div>
+                <!-- Feature Box End -->
+                <!-- Feature Box Start -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="features_box wow fadeInUp" data-wow-delay=".6s">
+                        <div class="icon">
+                            <img src="assets/images/icons/bag.png" alt="img">
+                        </div>
+                        <h5>Học lại miễn phí</h5>
+                        <p class="text-justify">Học viên hoàn toàn được học lại miễn phí nếu chưa đạt mục tiêu đề ra.</p>
+                    </div>
+                </div>
+                <!-- Feature Box End -->
+            </div>
+        </div>
+    </section>
+    <!-- Features End -->
+    <!-- About Start -->
+    <section class="section-padding pt-0 about bg-thm-color-two-gradient z-1 team_main_wrap">
+        <img src="assets/images/elements/element_1.png" class="element_1" alt="Element">
+        <img src="assets/images/elements/element_2.png" class="element_2" alt="Element">
+        <div class="container pt-5">
+            <div class="row align-items-center">
+                <div class="col-xl-7 col-lg-6">
+                    <div class="image_box wow fadeInLeft">
+                        <img style="width: 639px; height: 639px" src="https://scontent.fhan2-2.fna.fbcdn.net/v/t1.6435-9/120408479_2762759287383544_4867660786517525045_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=d1MqxGsrz5cAX9S9PW2&_nc_ht=scontent.fhan2-2.fna&oh=120e365e7037c3f861b99033454a6061&oe=6166863B" alt="img" class="image-fit image_1 rounded-circle">
+                        <img width="214px" height="214px" src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.6435-9/139031074_2856416914684447_4256500686035296676_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=iQf6PcolwFIAX9D0Ods&_nc_ht=scontent.fhan2-4.fna&oh=54cf440b073a4219475490273115ba0d&oe=6167DE46" alt="img" class="image-fit image_2 rounded-circle">
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6">
+                    <div class="section-title left-align wow fadeInUp">
+                        <p class="subtitle">
+                            <i class="fal fa-book"></i>
+                            Học để đi làm
+                        </p>
+                        <h3 class="title">Ai có thể tham gia khóa học ?</h3>
+                        <div class="d-flex">
+                            <div>
+                                <i class="fal fa-check icon-check"></i>
+                            </div>
+                            <p class="text-justify">Bạn đang là sinh viên CNTT nhưng đang mất gốc về lập trình, mong muốn củng cố nền tảng lập trình vững chắc để tham gia thực tập sớm.</p>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <i class="fal fa-check icon-check"></i>
+                            </div>
+                            <p class="text-justify">Bạn đang là sinh viên khác ngành CNTT hoặc là người đã đi làm, mong muốn chuyển sang ngành IT để có công việc tốt hơn với mức lương hấp dẫn.</p>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <i class="fal fa-check icon-check"></i>
+                            </div>
+                            <p class="text-justify">Bạn chưa có định hướng, đang băn khoăn không biết nên bắt đầu từ đâu, mong muốn được hỗ trợ tư vấn định hướng phù hợp và củng cố kiến thức để sớm có công việc ổn định.</p>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <i class="fal fa-check icon-check"></i>
+                            </div>
+                            <p class="text-justify">Bạn đang làm trong lĩnh vực CNTT nhưng muốn học hỏi và mở rộng kiến thức để có nhiều cơ hội thăng tiến trong ngành.</p>
+                        </div>
+                    </div>
+                    <!-- <ul class="about_list">
+                        <li class=" wow fadeInDown">
+                            <div class="icon">
+                                <img src="assets/images/icons/icon_5.png" alt="img" class="image-fit">
+                            </div>
+                            <div class="text">
+                                <h6 class="mb-2">Master Certified Coach</h6>
+                                <p class="mb-0">Quis autem vel eum iure reprehenderit quein ea voluptate velit esse quam</p>
+                            </div>
+                        </li>
+                        <li class=" wow fadeInDown">
+                            <div class="icon">
+                                <img src="assets/images/icons/icon_5.png" alt="img" class="image-fit">
+                            </div>
+                            <div class="text">
+                                <h6 class="mb-2">Coach Certification Program</h6>
+                                <p class="mb-0">Quis autem vel eum iure reprehenderit quein ea voluptate velit esse quam</p>
+                            </div>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+     <!-- Faqs Start -->
+     <section class="section-padding" id="roadmap">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="section-title left-align wow fadeInUp">
+                        <p class="subtitle">
+                            <i class="fal fa-book"></i>
+                            Bạn sẽ học được gì ?
+                        </p>
+                        <h3 class="title">Lộ trình khóa học</h3>
+                        <p>Lộ trình khóa học được thiết kế phù hợp, sát với yêu cầu thực tế của các doanh nghiệp CNTT. Với hàm lượng kiến thức lý thuyết ở dạng vận dụng cao, áp dụng vào các bài toán thực tế đã được hơn 8000+ lượt Zenter kiểm nghiệm và thành công.</p>
+                    </div>
+                    <div class="multi_progress_bar mb-xl-30 mb-md-80 wow fadeInDown">
+                        <div class="progress_box">
+                            <div class="circle_bar" data-percent="100" data-track-color="#ecf2ff" data-bar-color="#4b83fb" data-size="80">
+                                <div class="counter transform-center text-center">
+                                    <b data-from="0" data-to="100">0</b>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h5 class="mb-0">Học viên<br>tốt nghiệp</h5>
+                            </div>
+                        </div>
+                        <div class="progress_box">
+                            <div class="circle_bar" data-percent="99" data-track-color="#ecf2ff" data-bar-color="#65cfa9" data-size="80">
+                                <div class="counter transform-center text-center">
+                                    <b data-from="0" data-to="99">0</b>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h5 class="mb-0">Học viên<br> có việc ngay</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion accordion-style mb-xl-30 wow fadeInDown" id="accordion">
+                        <div class="card">
+                            <div class="card-header">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#ItemOne" aria-expanded="true" aria-controls="ItemOne">
+                                    Lập trình PHP cơ bản
+                                </button>
+                            </div>
+                            <div id="ItemOne" class="collapse show" aria-labelledby="ItemOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="list-lession">
+                                        <i class="fal fa-book-open"></i>
+                                        <span>Tổng quan về lập trình web server với PHP</span>
+                                    </div>
+                                    <div class="list-lession">
+                                        <i class="fal fa-book-open"></i>
+                                        <span>Dữ liệu, toán tử và các cấu trúc điều khiển trong PHP</span>
+                                    </div>
+                                    <div class="list-lession">
+                                        <i class="fal fa-book-open"></i>
+                                        <span>Truyền dữ liệu từ client lên server trong PHP</span>
+                                    </div>
+                                    <div class="list-lession">
+                                        <i class="fal fa-book-open"></i>
+                                        <span>Kỹ thuật sử dụng file upload và xây dựng hệ thống gửi mail tự động từ PHP</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#ItemTwo" aria-expanded="false" aria-controls="ItemTwo">
+                                    Database với MySQL
+                                </button>
+                            </div>
+                            <div id="ItemTwo" class="collapse" aria-labelledby="ItemTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="list-lession">
+                                        <i class="fal fa-book-open"></i>
+                                        <span>Tổng quan về lập trình web server với PHP</span>
+                                    </div>
+                                    <div class="list-lession">
+                                        <i class="fal fa-book-open"></i>
+                                        <span>Dữ liệu, toán tử và các cấu trúc điều khiển trong PHP</span>
+                                    </div>
+                                    <div class="list-lession">
+                                        <i class="fal fa-book-open"></i>
+                                        <span>Truyền dữ liệu từ client lên server trong PHP</span>
+                                    </div>
+                                    <div class="list-lession">
+                                        <i class="fal fa-book-open"></i>
+                                        <span>Kỹ thuật sử dụng file upload và xây dựng hệ thống gửi mail tự động từ PHP</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#ItemThree" aria-expanded="false" aria-controls="ItemThree">
+                                    Xây dựng MVC Framework bằng PHP
+                                </button>
+                            </div>
+                            <div id="ItemThree" class="collapse" aria-labelledby="ItemThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="list-lession">
+                                        <i class="fal fa-book-open"></i>
+                                        <span>Tổng quan về lập trình web server với PHP</span>
+                                    </div>
+                                    <div class="list-lession">
+                                        <i class="fal fa-book-open"></i>
+                                        <span>Dữ liệu, toán tử và các cấu trúc điều khiển trong PHP</span>
+                                    </div>
+                                    <div class="list-lession">
+                                        <i class="fal fa-book-open"></i>
+                                        <span>Truyền dữ liệu từ client lên server trong PHP</span>
+                                    </div>
+                                    <div class="list-lession">
+                                        <i class="fal fa-book-open"></i>
+                                        <span>Kỹ thuật sử dụng file upload và xây dựng hệ thống gửi mail tự động từ PHP</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Faqs End -->
+    <!-- Team Start -->
+    <section class="section-padding bg-thm-color-two-gradient z-1 team_main_wrap" id="teacher">
+        <img src="assets/images/elements/element_1.png" class="element_1" alt="Element">
+        <img src="assets/images/elements/element_2.png" class="element_2" alt="Element">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title wow fadeInDown">
+                        <p class="subtitle">
+                            <i class="fal fa-book"></i>
+                            Ai sẽ đồng hành cùng bạn ?
+                        </p>
+                        <h3 class="title">Đội ngũ giảng viên</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Block Start -->
+                <div class="col-lg col-md-6">
+                    <div class="team_block wow fadeInUp" data-wow-delay=".3s">
+                        <div class="team_img">
+                            <img src="assets/images/team/thuongvv.jpg" alt="img" class="image-fit">
+                        </div>
+                        <h6 class="mb-1"><a href="team-details.html">Vũ Văn Thương</a></h6>
+                        <p class="thm-color-two mb-0 font-weight-bold">Giảng viên khóa PHP MySQL</p>
+                        <p class="thm-color-two mb-0">Hơn 10 năm kinh nghiệm phát triển dự án</p>
+                    </div>
+                </div>
+                <!-- Block End -->
+                <!-- Block Start -->
+                <div class="col-lg col-md-6">
+                    <div class="team_block wow fadeInUp" data-wow-delay=".5s">
+                        <div class="team_img">
+                            <img src="assets/images/team/uyenvu.jpg" alt="img" class="image-fit">
+                        </div>
+                        <h6 class="mb-1"><a href="team-details.html">Vũ Thị Uyên</a></h6>
+                        <p class="thm-color-two mb-0 font-weight-bold">Giảng viên khóa PHP MySQL</p>
+                        <p class="thm-color-two mb-0">Hơn 10 năm kinh nghiệm phát triển dự án</p>
+                    </div>
+                </div>
+                <!-- Block End -->
+                <!-- Block Start -->
+                <div class="col-lg col-md-6">
+                    <div class="team_block wow fadeInUp" data-wow-delay=".7s">
+                        <div class="team_img">
+                            <img src="assets/images/team/nguyenconghoan.jpg" alt="img" class="image-fit">
+                        </div>
+                        <h6 class="mb-1"><a href="team-details.html">Công Hoan</a></h6>
+                        <p class="thm-color-two mb-0 font-weight-bold">Giảng viên khóa PHP MySQL</p>
+                        <p class="thm-color-two mb-0">Hơn 10 năm kinh nghiệm phát triển dự án</p>
+                    </div>
+                </div>
+                <!-- Block End -->
+                <!-- Block Start -->
+                <div class="col-lg col-md-6">
+                    <div class="team_block wow fadeInUp" data-wow-delay=".8s">
+                        <div class="team_img">
+                            <img src="assets/images/team/lehongminh.jpeg" alt="img" class="image-fit">
+                        </div>
+                        <h6 class="mb-1"><a href="team-details.html">Lê Hồng Minh</a></h6>
+                        <p class="thm-color-two mb-0 font-weight-bold">Giảng viên khóa PHP MySQL</p>
+                        <p class="thm-color-two mb-0">Hơn 10 năm kinh nghiệm phát triển dự án</p>
+                    </div>
+                </div>
+                <!-- Block End -->
+                <!-- Block Start -->
+                <div class="col-lg col-md-6">
+                    <div class="team_block wow fadeInUp" data-wow-delay=".9s">
+                        <div class="team_img">
+                            <img src="assets/images/team/namhung.jpg" alt="img" class="image-fit">
+                        </div>
+                        <h6 class="mb-1"><a href="team-details.html">Vũ Nam Hưng</a></h6>
+                        <p class="thm-color-two mb-0 font-weight-bold">Giảng viên khóa PHP MySQL</p>
+                        <p class="thm-color-two mb-0">Hơn 10 năm kinh nghiệm phát triển dự án</p>
+                    </div>
+                </div>
+                <!-- Block End -->
+            </div>
+        </div>
+    </section>
+    <!-- Team End -->
+    <!-- Portfolio Start -->
+    <section class="section-padding" id="project">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg-7">
+                    <div class="section-title left-align wow fadeInLeft">
+                        <p class="subtitle">
+                            <i class="fal fa-book"></i>
+                            Bạn sẽ làm được gì sau khóa học ?
+                        </p>
+                        <h3 class="title">Sản phẩm học viên</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="portfolio_box wow fadeInUp" data-wow-delay=".20ms">
+                        <div class="portfolio_img">
+                            <img src="assets/images/portfolio/project_student/tientoan.png" class="image-fit" alt="img">
+                        </div>
+                        <div class="portfolio_caption">
+                            <a target="_blank" href="https://elecstoredtt.herokuapp.com/">
+                                <div class="text_box">
+                                    <h4 class="title mb-0">
+                                        <a href="portfolio-details.html">Học viên: Đỗ Tiến Toàn</a>
+                                    </h4>
+                                    <p>Ứng dụng: Trang thương mại điện tử</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="portfolio_box wow fadeInDown" data-wow-delay=".40ms">
+                        <div class="portfolio_img">
+                            <img src="assets/images/portfolio/project_student/anhtuphp.png" class="image-fit" alt="img">
+                        </div>
+                        <div class="portfolio_caption">
+                            <a target="_blank" href="https://elecstoredtt.herokuapp.com/">
+                                <div class="text_box">
+                                    <h4 class="title mb-0">
+                                        <a href="portfolio-details.html">Học viên: Đỗ Tiến Toàn</a>
+                                    </h4>
+                                    <p>Ứng dụng: Trang thương mại điện tử</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="portfolio_box wow fadeInUp" data-wow-delay=".20ms">
+                        <div class="portfolio_img">
+                            <img src="assets/images/portfolio/project_student/hadao.png" class="image-fit" alt="img">
+                        </div>
+                        <div class="portfolio_caption">
+                            <a target="_blank" href="https://elecstoredtt.herokuapp.com/">
+                                <div class="text_box">
+                                    <h4 class="title mb-0">
+                                        <a href="portfolio-details.html">Học viên: Đỗ Tiến Toàn</a>
+                                    </h4>
+                                    <p>Ứng dụng: Trang thương mại điện tử</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="portfolio_box wow fadeInDown" data-wow-delay=".40ms">
+                        <div class="portfolio_img">
+                            <img src="assets/images/portfolio/project_student/thuyphp.png" class="image-fit" alt="img">
+                        </div>
+                        <div class="portfolio_caption">
+                            <a target="_blank" href="https://elecstoredtt.herokuapp.com/">
+                                <div class="text_box">
+                                    <h4 class="title mb-0">
+                                        <a href="portfolio-details.html">Học viên: Đỗ Tiến Toàn</a>
+                                    </h4>
+                                    <p>Ứng dụng: Trang thương mại điện tử</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="portfolio_box wow fadeInUp" data-wow-delay=".20ms">
+                        <div class="portfolio_img">
+                            <img src="assets/images/portfolio/project_student/tientoan.png" class="image-fit" alt="img">
+                        </div>
+                        <div class="portfolio_caption">
+                            <a target="_blank" href="https://elecstoredtt.herokuapp.com/">
+                                <div class="text_box">
+                                    <h4 class="title mb-0">
+                                        <a href="portfolio-details.html">Học viên: Đỗ Tiến Toàn</a>
+                                    </h4>
+                                    <p>Ứng dụng: Trang thương mại điện tử</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="portfolio_box wow fadeInDown" data-wow-delay=".40ms">
+                        <div class="portfolio_img">
+                            <img src="assets/images/portfolio/project_student/anhtuphp.png" class="image-fit" alt="img">
+                        </div>
+                        <div class="portfolio_caption">
+                            <a target="_blank" href="https://elecstoredtt.herokuapp.com/">
+                                <div class="text_box">
+                                    <h4 class="title mb-0">
+                                        <a href="portfolio-details.html">Học viên: Đỗ Tiến Toàn</a>
+                                    </h4>
+                                    <p>Ứng dụng: Trang thương mại điện tử</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio End -->
+    <!-- Testimonials Start -->
+    <section class="section-padding pt-0 relative z-1" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title left-align wow fadeInLeft">
+                        <p class="subtitle mb-4">
+                            <i class="fal fa-book"></i>
+                            Học viên nói gì về Zent ?
+                        </p>
+                        <h3 class="title mb-0">Cảm nhận học viên Zent</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial_slider row arrows_none">
+                <!-- Testimonial Item -->
+                <div class="slide-item col-12">
+                    <div class="testimonial_item wow fadeInUp" data-wow-delay=".2s">
+                        <div class="author">
+                            <div class="image bg-thm-color-two">
+                                <img src="assets/images/author/thinhnguyen.jpg" alt="img" class="image-fit">
+                            </div>
+                            <div class="text">
+                                <h6 class="mb-0">Nguyễn Văn Thịnh</h6>
+                                <p class="mb-0 font-weight-bold thm-color-two">Sun-Asterisk</p>
+                            </div>
+                        </div>
+                        <p class="comment">
+                            Zent là một môi trường tốt cho các bạn học viên thật sự có mong muốn trở thành 1 lập trình viên trong tương lai. Các khóa học, bài giảng đi từ rất cơ bản đến nâng cao, đảm bảo các kiến thức cơ bản cần thiết để có thể học tập, làm việc. Giảng viên và trợ giảng luôn nhiệt tình, hỗ trợ học viên hết mức có thể (mình rất ấn tượng điều này).
+                        </p>
+                        <div class="ratings">
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial Item -->
+                <!-- Testimonial Item -->
+                <div class="slide-item col-12">
+                    <div class="testimonial_item wow fadeInUp" data-wow-delay=".3s">
+                        <div class="author">
+                            <div class="image bg-thm-color-two">
+                                <img src="assets/images/author/huongnguyen.jpg" alt="img" class="image-fit">
+                            </div>
+                            <div class="text">
+                                <h6 class="mb-0">Hương Nguyễn</h6>
+                                <p class="mb-0 font-weight-bold thm-color-two">Revotech Soft</p>
+                            </div>
+                        </div>
+                        <p class="comment">
+                            Cám ơn Zent đã là người bạn đồng hành của em từ những ngày bắt đầu với dòng code đầu tiên. Cám ơn các giảng viên, trợ giảng nhiệt tình đã giúp đỡ em trong suốt các khóa học của Zent. Không biết nói gì hơn, em xin cám ơn Zent rất nhiều!
+                        </p>
+                        <div class="ratings">
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial Item -->
+                <!-- Testimonial Item -->
+                <div class="slide-item col-12">
+                    <div class="testimonial_item wow fadeInUp" data-wow-delay=".39s">
+                        <div class="author">
+                            <div class="image bg-thm-color-two">
+                                <img src="assets/images/author/viethoang.jpg" alt="img" class="image-fit">
+                            </div>
+                            <div class="text">
+                                <h6 class="mb-0">Dương Việt Hoàng</h6>
+                                <p class="mb-0 font-weight-bold thm-color-two">ICC HaNoi</p>
+                            </div>
+                        </div>
+                        <p class="comment">
+                            Zent là 1 trải nghiệm tuyệt vời. Giúp mình có 1 bước đệm tốt về rất nhiều mặt để có thể phát triển sự nghiệp trong ngành CNTT và các mối quan hệ thân thiết cho đến thời điểm hiện tại với các bạn học cũng như giảng viên tại đây.
+                        </p>
+                        <div class="ratings">
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial Item -->
+                <!-- Testimonial Item -->
+                <div class="slide-item col-12">
+                    <div class="testimonial_item wow fadeInUp" data-wow-delay=".5s">
+                        <div class="author">
+                            <div class="image bg-thm-color-two">
+                                <img src="assets/images/author/manhnguyen.JPG" alt="img" class="image-fit">
+                            </div>
+                            <div class="text">
+                                <h6 class="mb-0">Nguyễn Văn Mạnh</h6>
+                                <p class="mb-0 font-weight-bold thm-color-two">Ngân hàng MSB</p>
+                            </div>
+                        </div>
+                        <p class="comment">
+                            Zent là một nơi đáng để các bạn đặt chân tới học. Từ giảng viên, trợ giảng, ... đều rất nhiệt tình, vui tính. Nói gì thì nói , khi đi học mà gặp người vui tính là tính thần học đã được nâng lên tầng cao mới rồi. Chưa kể các khóa học ở đây rất chất lượng, được đầu tư từ giáo trình, phòng học, cũng như phần mềm quản lý học rất chi là xịn xò. Nói tóm lại: Các bạn chưa từng học ở Zent, hãy thử đến Zent 1 lần, các bạn sẽ cảm nhận được điều tôi nói.
+                        </p>
+                        <div class="ratings">
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial Item -->
+                <!-- Testimonial Item -->
+                <div class="slide-item col-12">
+                    <div class="testimonial_item wow fadeInUp" data-wow-delay=".59s">
+                        <div class="author">
+                            <div class="image bg-thm-color-two">
+                                <img src="assets/images/author/tranphuong.jpg" alt="img" class="image-fit">
+                            </div>
+                            <div class="text">
+                                <h6 class="mb-0">Phương Trần</h6>
+                                <p class="mb-0 font-weight-bold thm-color-two">Base Enterprise</p>
+                            </div>
+                        </div>
+                        <p class="comment">
+                            Môi trường học tập thoải mái, giảng viên thân thiện. Các trợ giảng cực chăm chỉ support cho học viên. Qua quá trình học ở Zent, mình đã nắm được các kiến thức cơ bản, cốt lõi, là bàn đạp cho mình sau này. Cảm ơn Zent, cảm ơn a Thương và các bạn bè đã từng đồng hành cùng mình. Love all!
+                        </p>
+                        <div class="ratings">
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                            <i class="fal fa-star active"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial Item -->
+            </div>
+        </div>
+        <div class="circle_wave"></div>
+    </section>
+    <!-- Testimonials End -->
+    <!-- Video Quote Start -->
+    <section class="bg-thm-color-two-gradient z-1 video_quote" id="register">
+        <img src="assets/images/elements/element_2.png" class="element_2" alt="Element">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters align-items-center">
+                <div class="col-lg-6">
+                    <div class="video_warp relative z-1 h-100 wow fadeInLeft">
+                        <img src="assets/images/event/123645564_2794947137498092_371118375195544412_n.jpg" alt="img" class="image-fit">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="arrows slideRight">
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                    </div>
+                    <img src="assets/images/elements/element_11.png" class="element_4 rotate_elem" alt="img">
+                    <div class="quote_sec about relative z-1">
+                        <img src="assets/images/elements/element_17.png" class="element_5 rotate_elem" alt="img">
+                        <div class="section-title left-align wow fadeInUp">
+                            <p class="subtitle">
+                                <i class="fal fa-book"></i>
+                                học để đi làm
+                            </p>
+                            <h3 class="title mb-0">Đăng ký tư vấn và nhận ưu đãi ngay</h3>
+                        </div>
+                        <p>Bạn đang băn khoăn về khóa học, đừng lo hãy để lại thông tin, đội ngũ CSHV của Zent Coding School sẽ liên hệ tư vấn và giải đáp thắc mắc giúp bạn.</p>
+                        <form class="wow fadeInDown">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" name="#" class="form-control form-control-custom" placeholder="Họ và tên" autocomplete="off">
+                                        <i class="fal fa-user"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" name="#" class="form-control form-control-custom" placeholder="Số điện thoại" autocomplete="off">
+                                        <i class="fal fa-phone"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" name="#" class="form-control form-control-custom" placeholder="Email" autocomplete="off">
+                                        <i class="fal fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <button type="submit" class="thm-btn bg-thm-color-two thm-color-two-shadow btn-rounded">Đăng ký ngay <i class="fal fa-chevron-right ml-2"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video Quote End -->
+    <!-- Sponsors Start -->
+    <div class="section-padding" id="student_work">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center wow fadeInLeft mb-4 title-student">
+                        <p class="subtitle mb-4">
+                            <i class="fal fa-book"></i>
+                            Học để đi làm
+                        </p>
+                        <h3 class="title mb-0">Học viên của Zent làm việc ở đâu ?</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-around align-items-center">
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/partner-logo/bamboo.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/partner-logo/basevn.jpeg" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/partner-logo/vnp.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/partner-logo/viettel.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/partner-logo/vccorp.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/partner-logo/sun.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/partner-logo/mb.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/partner-logo/vinid.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/partner-logo/fsoft.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/partner-logo/msb.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sponsors_img">
+                        <img src="assets/images/partner-logo/nt.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sponsors End -->
+    <!-- Plane Start -->
+    <div class="bg-thm-color-two plane_box relative z-1">
+        <div class="container relative z-1">
+            <div class="row justify-content-center">
+                <div class="col-xl-9 col-lg-11 relative z-1">
+                    <img src="assets/images/elements/element_6.png" class="element_1 rotate_elem" alt="Element">
+                    <h2 class="thm-color-white">YOUR FUTURE IS CREATED BY WHAT YOU CODE { TODAY } NOT { TOMORROW } </h2>
+                </div>
+            </div>
+            <img src="assets/images/elements/element_7.png" class="element_2 zoom-fade" alt="Element">
+        </div>
+    </div>
+    <!-- Plane End -->
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_top section-padding">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="ft_widget ft_about wow fadeInDown">
+                            <a href="index.html" class="logo">
+                                <img src="assets/images/logo_zent.png" alt="logo" class="image-fit">
+                            </a>
+                            <ul class="info">
+                                <li>
+                                    <a href="#"><i class="fa fa-map"></i> Cơ sở 1: Số 2 ngõ 118 Trương Định, Hai Bà Trưng, Hà Nội </a>
+                                    <a href="#"><i class="fa fa-map"></i> Cơ sở 2: Khoa CNTT, Học viện Nông nghiệp Việt Nam, Trâu Quỳ, Gia Lâm, Hà Nội </a>
+                                </li>
+                                <li>
+                                    <a href="tel:0868901456" class="mr-2"><i class="fa fa-phone-volume"></i> 0868901456</a>
+                                    <a href="mailto:info@zent.vn"> <i class="fa fa-mailbox"></i> info@zent.vn</a>
+                                </li>
+                            </ul>
+                            <ul class="social">
+                                <li>
+                                    <a target="_blank" href="https://www.facebook.com/zent.edu.vn">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://www.youtube.com/channel/UCGOIqy_5U56JYs4wdAUFWBw">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://www.instagram.com/zentcodingschool/">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-6">
+                        <div class="ft_widget ft_apps wow fadeInUp h-75">
+                            <h6 class="ft-title">Chỉ đường</h6>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.9872052391065!2d105.84695891492895!3d20.99314999436894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac6dce1c3075%3A0x1151330eb74574fe!2zSOG7hyB0aOG7kW5nIGdpw6FvIGThu6VjIHbDoCBjw7RuZyBuZ2jhu4cgWmVudA!5e0!3m2!1svi!2s!4v1631777260083!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <p class="mb-0">
+                    © 2021 <a target="_blank" href="https://zent.edu.vn">Zent Coding School</a>. All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <a href="javascript:void(0)" data-target="html" class="back-to-top ft-sticky">
+        <i class="fal fa-long-arrow-up"></i>
+    </a>
+    <!-- Scripts -->
+    <script src="assets/js/plugins/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/plugins/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/slick.min.js"></script>
+    <script src="assets/js/plugins/imagesloaded.min.js"></script>
+    <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugins/jquery.counterup.min.js"></script>
+    <script src="assets/js/plugins/jquery.inview.min.js"></script>
+    <script src="assets/js/plugins/jquery.easypiechart.js"></script>
+    <script src="assets/js/plugins/jquery.countdown.min.js"></script>
+    <script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
