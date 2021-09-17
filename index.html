@@ -27,6 +27,7 @@
     <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
     <link href="assets/fonts/flaticon/flaticon.css" rel="stylesheet">
     <link href="assets/fonts/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/fancybox.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 </head>
@@ -279,7 +280,7 @@
                             Bạn sẽ học được gì ?
                         </p>
                         <h3 class="title">Lộ trình khóa học</h3>
-                        <p>Lộ trình khóa học được thiết kế phù hợp, sát với yêu cầu thực tế của các doanh nghiệp CNTT. Với hàm lượng kiến thức lý thuyết ở dạng vận dụng cao, áp dụng vào các bài toán thực tế đã được hơn 8000+ lượt Zenter kiểm nghiệm và thành công.</p>
+                        <p>Lộ trình khóa học được thiết kế phù hợp, sát với yêu cầu thực tế của các doanh nghiệp CNTT. Với hàm lượng kiến thức lý thuyết ở dạng vận dụng cao, áp dụng vào các bài toán thực tế đã được hơn 5000+ lượt Zenter kiểm nghiệm và thành công.</p>
                     </div>
                     <div class="multi_progress_bar mb-xl-30 mb-md-80 wow fadeInDown">
                         <div class="progress_box">
@@ -309,7 +310,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#ItemOne" aria-expanded="true" aria-controls="ItemOne">
-                                    Lập trình PHP cơ bản
+                                    Làm chủ PHP từ con số 0
                                 </button>
                             </div>
                             <div id="ItemOne" class="collapse show" aria-labelledby="ItemOne" data-parent="#accordion">
@@ -328,30 +329,7 @@
                                     </div>
                                     <div class="list-lession">
                                         <i class="fal fa-book-open"></i>
-                                        <span>Kỹ thuật sử dụng file upload và xây dựng hệ thống gửi mail tự động từ PHP</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#ItemTwo" aria-expanded="false" aria-controls="ItemTwo">
-                                    Database với MySQL
-                                </button>
-                            </div>
-                            <div id="ItemTwo" class="collapse" aria-labelledby="ItemTwo" data-parent="#accordion">
-                                <div class="card-body">
-                                    <div class="list-lession">
-                                        <i class="fal fa-book-open"></i>
-                                        <span>Tổng quan về lập trình web server với PHP</span>
-                                    </div>
-                                    <div class="list-lession">
-                                        <i class="fal fa-book-open"></i>
-                                        <span>Dữ liệu, toán tử và các cấu trúc điều khiển trong PHP</span>
-                                    </div>
-                                    <div class="list-lession">
-                                        <i class="fal fa-book-open"></i>
-                                        <span>Truyền dữ liệu từ client lên server trong PHP</span>
+                                        <span>Xây dựng chức năng giỏ hàng với PHP</span>
                                     </div>
                                     <div class="list-lession">
                                         <i class="fal fa-book-open"></i>
@@ -363,26 +341,30 @@
                         <div class="card">
                             <div class="card-header">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#ItemThree" aria-expanded="false" aria-controls="ItemThree">
-                                    Xây dựng MVC Framework bằng PHP
+                                    Xây dựng MVC Framework bằng PHP và làm việc với MySQL
                                 </button>
                             </div>
                             <div id="ItemThree" class="collapse" aria-labelledby="ItemThree" data-parent="#accordion">
                                 <div class="card-body">
                                     <div class="list-lession">
                                         <i class="fal fa-book-open"></i>
-                                        <span>Tổng quan về lập trình web server với PHP</span>
+                                        <span>Tổng quan về cơ sở dữ liệu MySQL</span>
                                     </div>
                                     <div class="list-lession">
                                         <i class="fal fa-book-open"></i>
-                                        <span>Dữ liệu, toán tử và các cấu trúc điều khiển trong PHP</span>
+                                        <span>Lập trình hướng đối tượng trong PHP</span>
                                     </div>
                                     <div class="list-lession">
                                         <i class="fal fa-book-open"></i>
-                                        <span>Truyền dữ liệu từ client lên server trong PHP</span>
+                                        <span>Mô hình MVC (Model - View - Controller) kinh điển</span>
                                     </div>
                                     <div class="list-lession">
                                         <i class="fal fa-book-open"></i>
-                                        <span>Kỹ thuật sử dụng file upload và xây dựng hệ thống gửi mail tự động từ PHP</span>
+                                        <span>Thao tác CRUD theo mô hình MVC với PHP</span>
+                                    </div>
+                                    <div class="list-lession">
+                                        <i class="fal fa-book-open"></i>
+                                        <span>Tối ưu mô hình MVC theo chuẩn Laravel Framework</span>
                                     </div>
                                 </div>
                             </div>
@@ -887,7 +869,7 @@
                 </div>
                 <div class="col-auto">
                     <div class="sponsors_img">
-                        <img src="assets/images/partner-logo/msb.png" alt="img">
+                        <img src="assets/images/partner-logo/vinai.png" alt="img">
                     </div>
                 </div>
                 <div class="col-auto">
@@ -899,6 +881,53 @@
         </div>
     </div>
     <!-- Sponsors End -->
+     <!-- Testimonials Start -->
+    <section class="section-padding pt-3 relative z-1 mt-4 bg-thm-color-two-gradient team_main_wrap" id="image-galery">
+        <img src="assets/images/elements/element_1.png" class="element_1" alt="Element">
+        <img src="assets/images/elements/element_2.png" class="element_2" alt="Element">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title left-align wow fadeInLeft">
+                        <p class="subtitle mb-4">
+                            <i class="fal fa-book"></i>
+                            Học tại Zent có gì vui ?
+                        </p>
+                        <h3 class="title mb-0">Thư viện ảnh</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row arrows_none box-galery">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="assets/images/event/97333024_2645128612479946_3503165000963325952_n.jpg" class="fancybox" data-fancybox="gallery" data-caption="Trao học bổng và GCN cho học viên xuất sắc"  title="Thư viện ảnh Zent"><img class="img-galery" src="assets/images/event/97333024_2645128612479946_3503165000963325952_n.jpg" /></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <a href="assets/images/event/lophoc.jpg" class="fancybox" data-fancybox="gallery" data-caption="Một buổi học tại Zent" title="Thư viện ảnh Zent"><img class="img-galery" src="assets/images/event/lophoc.jpg" /></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="assets/images/event/tvv.png" class="fancybox" data-fancybox="gallery" data-caption="Trao học bổng và GCN cho học viên xuất sắc" title="Thư viện ảnh Zent"><img class="img-galery" src="assets/images/event/tvv.png" /></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-8">
+                    <a href="assets/images/event/webfrontend.jpg" class="fancybox" data-fancybox="gallery" data-caption="Một buổi học tại Zent" title="Thư viện ảnh Zent"><img class="img-galery" src="assets/images/event/webfrontend.jpg" /></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <a href="assets/images/event/laravel.jpg" class="fancybox" data-fancybox="gallery" data-caption="Tốt nghiệp khóa học" title="Thư viện ảnh Zent"><img class="img-galery" src="assets/images/event/laravel.jpg" /></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <a href="assets/images/event/baove.jpg" class="fancybox" data-fancybox="gallery" data-caption="Trao học bổng và GCN cho học viên xuất sắc" title="Thư viện ảnh Zent"><img class="img-galery" src="assets/images/event/baove.jpg" /></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <a href="assets/images/event/giangsinh.jpg" class="fancybox" data-fancybox="gallery" data-caption="Giáng sinh ai cũng có quà" title="Thư viện ảnh Zent"><img class="img-galery" src="assets/images/event/giangsinh.jpg" /></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <a href="assets/images/event/gioithieuvieclam.jpg" class="fancybox" data-fancybox="gallery" data-caption="Tư vấn, giới thiệu việc làm sau khi tốt nghiệp" title="Thư viện ảnh Zent"><img class="img-galery" src="assets/images/event/gioithieuvieclam.jpg" /></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="circle_wave"></div>
+    </section>
+    <!-- Testimonials End -->
     <!-- Plane Start -->
     <div class="bg-thm-color-two plane_box relative z-1">
         <div class="container relative z-1">
@@ -990,9 +1019,57 @@
             <a href="javascript:;" class="btn_register"><i class="fa fa-paper-plane"></i><br>Gửi</a>
         </div>
     </div>
+    <div class="box_utils">
+        <div class="box_content">
+            <a target="_blank" href="https://zent.edu.vn/posts?category=lich-khai-giang" class="item item_1">Lịch khai giảng</a>
+            <a href="#register" class="item item_2">Test trình độ</a>
+            <a href="#register" class="go_box item item_3" >Đăng ký học thử</a>
+        </div>
+    </div>
     <div class="livechat" id="livechat">
         <a href="https://m.me/zent.edu.vn" target="_blank"><i class="fa fa-comment-smile"></i> &nbsp;Hỗ trợ trực tuyến</a>
     </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+            <button type="button" class="close pr-2" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          <img class="img-fluid" src="assets/images/banner/banner_modal.jpg" alt="">
+          <div class="container">
+            <form class="m-3" action="">
+                <p>Bạn đang băn khoăn về khóa học, đừng lo hãy để lại thông tin, đội ngũ CSHV của Zent Coding School sẽ liên hệ tư vấn và giải đáp thắc mắc giúp bạn.</p>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control form-control-custom" placeholder="Họ và tên" autocomplete="off">
+                            <i class="fal fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <input type="text" name="phone" class="form-control form-control-custom" placeholder="Số điện thoại" autocomplete="off">
+                            <i class="fal fa-phone"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <input type="text" name="email" class="form-control form-control-custom" placeholder="Email" autocomplete="off">
+                            <i class="fal fa-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <button type="submit" class="thm-btn bg-thm-color-two thm-color-two-shadow">Đăng ký tư vấn </button>
+                    </div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <a href="javascript:void(0)" data-target="html" class="back-to-top ft-sticky">
         <i class="fal fa-long-arrow-up"></i>
     </a>
@@ -1008,6 +1085,10 @@
     <script src="assets/js/plugins/jquery.easypiechart.js"></script>
     <script src="assets/js/plugins/jquery.countdown.min.js"></script>
     <script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/plugins/fancybox.umd.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+        $("#exampleModalCenter").modal('show');
+    </script>
 </body>
 </html>
